@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/his_application# Corrected indentation
+    username: root
+    password: 244715
+  jpa:
+    hibernate:
+      ddl-auto: update  # or none for production
+    show-sql: true  # Set to true for debugging purposes in development
+    generate-ddl: false  # Set to true for debugging purposes in development
+
+server:
+  port: 8081
+
+  
